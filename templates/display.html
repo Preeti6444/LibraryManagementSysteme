@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management</title>
+</head>
+<body>
+    <h1>Library Book Records</h1>
+
+    <!-- 🔍 Search Form -->
+    <form action="/search" method="get">
+        <label>Enter Book Title:</label>
+        <input type="text" name="title" required>
+        <input type="submit" value="Check Availability">
+    </form>
+
+    <!-- ✅ Show Result -->
+    {% if result is defined %}
+        <h3>Result: {{ result }}</h3>
+    {% endif %}
+
+    <br>
+    <a href="/add">Add New Book</a>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+        {% for book in blogs %}
+        <tr>
+            <td>{{ book.id }}</td>
+            <td>{{ book.title }}</td>
+            <td>{{ book.author }}</td>
+            <td>{{ book.status }}</td>
+            <td>
+                <a href="/edit/{{ book.id }}">Edit</a> |
+                <a href="/delete/{{ book.title }}">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
