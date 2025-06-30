@@ -48,7 +48,9 @@ Library_Management_System/
 ├── templates/
 
 │   └── add.html
+
     └── display.html
+    
     └── edit.html
 
 ├── static/
@@ -59,7 +61,8 @@ Library_Management_System/
 
 ├── requirements.txt
 
-![2](https://github.com/user-attachments/assets/c919ceda-6db8-4626-bef6-fb0f03e18dbd)
+
 ![1](https://github.com/user-attachments/assets/1cfe40bd-5684-4afe-bb6f-600a61866447)
+![2](https://github.com/user-attachments/assets/d3432f03-0a91-4c7e-9aa8-b90d52708d20)
 
 
