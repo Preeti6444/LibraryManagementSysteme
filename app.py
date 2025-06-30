@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, request, render_template, redirect, url_for, jsonify
 import pandas as pd
 
@@ -105,15 +104,6 @@ def insert():
     df.to_excel('Library.xlsx', index=False)
     return jsonify({'Message': 'Success...Data Inserted'})
 
-if __name__ == '__main__':
-    app.run(debug=True)
-=======
-from flask import Flask, render_template, request, redirect, url_for
-import openpyxl
-
-app = Flask(__name__)
-EXCEL_FILE = 'Library.xlsx'
-
 def load_books():
     wb = openpyxl.load_workbook(EXCEL_FILE)
     sheet = wb.active
@@ -175,4 +165,3 @@ def return_book():
 
 if __name__ == '__main__':
     app.run(debug=True)
->>>>>>> 43d847e3bbd53dbb3646e6181d2855425f7651e4
