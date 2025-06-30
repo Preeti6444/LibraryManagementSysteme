@@ -39,4 +39,20 @@ A simple web application built with Flask to manage book records, including issu
 5.  **Access the application:**
     Open your web browser and navigate to `http://127.0.0.1:5000/`.
 
-## Project Structure
+## Project File Structure
+Library_Management_System/
+├── database/
+│   └── schema.sql
+├── src/
+│   ├── main.py
+│   ├── book.py
+│   └── member.py
+├── templates/
+│   └── home.html
+├── static/
+│   └── style.css
+├── README.md
+├── requirements.txt
+└── .gitignore![Library Management - Google Chrome 6_30_2025 1_37_34 PM](https://github.com/user-attachments/assets/0c9fae50-9b8a-4f9d-b910-7b79644dbcd3)
+![Library Management - Google Chrome 6_30_2025 1_37_34 PM](https://github.com/user-attachments/assets/c4908f37-0d45-4007-9024-c45148605fff)
+![Library Management - Google Chrome 6_30_2025 1_37_24 PM](https://github.com/user-attachments/assets/f3a58af1-3a6c-4c54-8426-29d95daf14af)
