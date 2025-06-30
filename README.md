@@ -41,21 +41,15 @@ A simple web application built with Flask to manage book records, including issu
 
 ## Project File Structure
 Library_Management_System/
-├── database/
+├── Library.xlsx
 
-│   └── schema.sql
-
-├── src/
-
-│   ├── main.py
-
-│   ├── book.py
-
-│   └── member.py
+├── app.py
 
 ├── templates/
 
-│   └── home.html
+│   └── add.html
+    └── display.html
+    └── edit.html
 
 ├── static/
 
@@ -65,5 +59,7 @@ Library_Management_System/
 
 ├── requirements.txt
 
+![2](https://github.com/user-attachments/assets/c919ceda-6db8-4626-bef6-fb0f03e18dbd)
+![1](https://github.com/user-attachments/assets/1cfe40bd-5684-4afe-bb6f-600a61866447)
 
 
